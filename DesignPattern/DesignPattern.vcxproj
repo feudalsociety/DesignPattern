@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Factories\AbstractFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factories\DrinkFactory.h" />
+    <ClInclude Include="Factories\HotDrink.h" />
+    <ClInclude Include="Factories\HotdrinkFactory.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{BA2A6BFC-6C6B-41A7-880B-073E4F512019}</ProjectGuid>
